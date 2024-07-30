@@ -3,7 +3,7 @@
 *{
     margin:0;
     padding: 0;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 html{
@@ -168,7 +168,7 @@ section{
     margin: auto 0;
 }
 
-.section__pic-container img{
+#profile .section__pic-container img{
     border-radius: 50%;
 }
 
@@ -195,8 +195,9 @@ section{
 }
 
 .title{
-    font-size: 2.8rem;
+    font-size: 3rem;
     text-align: center;
+    font-weight: 600;
 }
 
 #socials-container{
@@ -287,11 +288,31 @@ section{
 
 .arrow{
     position: absolute;
-    
+    right : -5rem;
+    bottom: 2.5rem;
 }
 
+.details-container{
+    padding: 1.3rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
 
+.section-container{
+    gap: 4rem;
+    height: 80%;
+}
 
+.section__pic-container{
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+
+}
 
 
 
